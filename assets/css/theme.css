@@ -1,0 +1,54 @@
+
+:root {
+    --theme-bg: #f5f7fb;
+    --theme-card: #ffffff;
+    --theme-text: #172033;
+    --theme-muted: #778195;
+    --theme-border: #e5e9f0;
+    --theme-input: #ffffff;
+}
+
+html[data-theme="dark"] {
+    --theme-bg: #111827;
+    --theme-card: #1f2937;
+    --theme-text: #f3f4f6;
+    --theme-muted: #a0aec0;
+    --theme-border: #374151;
+    --theme-input: #273449;
+}
+
+html[data-theme="dark"] body {
+    background: var(--theme-bg);
+    color: var(--theme-text);
+}
+
+html[data-theme="dark"] .admin-sidebar,
+html[data-theme="dark"] .admin-topbar,
+html[data-theme="dark"] .settings-card {
+    background: var(--theme-card);
+    color: var(--theme-text);
+    border-color: var(--theme-border);
+}
+
+html[data-theme="dark"] .settings-content h1,
+html[data-theme="dark"] .settings-content h2,
+html[data-theme="dark"] .settings-content h3,
+html[data-theme="dark"] .settings-content label {
+    color: var(--theme-text);
+}
+
+html[data-theme="dark"] .settings-content p,
+html[data-theme="dark"] .settings-breadcrumb {
+    color: var(--theme-muted);
+}
+
+html[data-theme="dark"] .settings-field input,
+html[data-theme="dark"] .settings-field textarea {
+    background: var(--theme-input);
+    color: var(--theme-text);
+    border-color: var(--theme-border);
+}
+
+html[data-theme="dark"] .appearance-option {
+    border-color: var(--theme-border);
+}

@@ -1,0 +1,11 @@
+vendor/
+.env
+.env.*
+!.env.example
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+admin/test-session.php
